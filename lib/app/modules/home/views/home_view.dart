@@ -10,8 +10,8 @@ class HomeView extends GetView<HomeController> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Profile'),
-        centerTitle: true,
-        backgroundColor: Colors.blueGrey[900],
+        centerTitle: false,
+        backgroundColor: Colors.blue[900],
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
